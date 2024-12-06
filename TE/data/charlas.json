@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "titulo": "Paseo para conocer las plantas de Pamplona",
+        "fecha": "17-06-2022",
+        "ubicacion": "Uharte",
+        "duracion": 50,
+        "descripcion": "Proyecto mapeo del Ailanto",
+        "publico": "General"
+    },
+    {
+        "id": 2,
+        "titulo": "El problema del Ailanto",
+        "fecha": "11-04-2023",
+        "ubicacion": "Lizarra",
+        "duracion": 50,
+        "descripcion": "Proyecto Mapeo del Ailanto",
+        "publico": "Adulto"
+    },
+    {
+        "id": 3,
+        "titulo": "Paseo para conoceer las plantas de Pamplona",
+        "fecha": "07-05-2023",
+        "ubicacion": "Iruña",
+        "duracion": 50,
+        "descripcion": "Museo de educacion ambiental",
+        "publico": "General"
+    },
+    {
+        "id": 4,
+        "titulo": "Charla divulgativa",
+        "fecha": "07-05-2023",
+        "ubicacion": "Mañeru",
+        "duracion": 50,
+        "descripcion": "Dia del arbol",
+        "publico": "General"
+    },
+    {
+        "id": 5,
+        "titulo": "Taller sensibilación",
+        "fecha": "18-08-2023",
+        "ubicacion": "Mendebaldea",
+        "duracion": 50,
+        "descripcion": "Campamentos infantiles",
+        "publico": "Infantil"
+    },
+    {
+        "id": 6,
+        "titulo": "El problema del Ailanto",
+        "fecha": "16-02-2024",
+        "ubicacion": "Iruña",
+        "duracion": 50,
+        "descripcion": "Mapeo del Ailanto",
+        "publico": "General"
+    },
+    {
+        "id": 7,
+        "titulo": "Paseo para conocer las plantas de Pamplona",
+        "fecha": "04-05-2024",
+        "ubicacion": "Iruña",
+        "duracion": 50,
+        "descripcion": "Proyecto Conciencia Ecológica",
+        "publico": "General"
+    }
+]

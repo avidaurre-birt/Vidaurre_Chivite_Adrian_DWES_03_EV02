@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "ubicacion": "Etxarri",
+        "fecha": "10-10-2021",
+        "arboles": [
+            {
+                "especie": "Olmo",
+                "cantidad": 300
+            }
+        ],
+        "participantes": 50
+    },
+    {
+        "id": 2,
+        "ubicacion": "Uharte",
+        "fecha": "04-11-2022",
+        "arboles": [
+            {
+                "especie": "Olmo",
+                "cantidad": 70
+            }
+        ],
+        "participantes": 25
+    },
+    {
+        "id": 3,
+        "ubicacion": "Cirauki",
+        "fecha": "21-02-2023",
+        "arboles": [
+            {
+                "especie": "Fresno",
+                "cantidad": 150
+            }
+        ],
+        "participantes": 34
+    },
+    {
+        "id": 4,
+        "ubicacion": "Monreal",
+        "fecha": "19-10-2023",
+        "arboles": [
+            {
+                "especie": "Olmo",
+                "cantidad": 100
+            },
+            {
+                "especie": "Fresno",
+                "cantidad": 100
+            }
+        ],
+        "participantes": 50
+    },
+    {
+        "id": 5,
+        "ubicacion": "Sarriguren",
+        "fecha": "02-12-2023",
+        "arboles": [
+            {
+                "especie": "Abedul",
+                "cantidad": 300
+            }
+        ],
+        "participantes": 50
+    },
+    {
+        "id": 6,
+        "ubicacion": "Mañeru",
+        "fecha": "11-02-2024",
+        "arboles": [
+            {
+                "especie": "Olmo",
+                "cantidad": 200
+            },
+            {
+                "especie": "Haya",
+                "cantidad": 100
+            }
+        ],
+        "participantes": 66
+    },
+    {
+        "id": 7,
+        "ubicacion": "Mañeru",
+        "fecha": "16-11-2024",
+        "arboles": [
+            {
+                "especie": "Olmo",
+                "cantidad": 300
+            }
+        ],
+        "participantes": 50
+    }
+]

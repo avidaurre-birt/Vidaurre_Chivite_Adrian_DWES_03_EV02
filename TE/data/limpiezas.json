@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "ubicacion": "Iruña",
+        "fecha": "10-10-2021",
+        "cantidadRecogida-Kg": 100,
+        "participantes": 50,
+        "descripcion": "Cauce del rio Arga"
+    },
+    {
+        "id": 2,
+        "ubicacion": "Mendebaldea",
+        "fecha": "04-11-2022",
+        "cantidadRecogida-Kg": 80,
+        "participantes": 25,
+        "descripcion": "Zonas verdes"
+    },
+    {
+        "id": 3,
+        "ubicacion": "Iruña",
+        "fecha": "21-02-2023",
+        "cantidadRecogida-Kg": 110,
+        "participantes": 34,
+        "descripcion": "Cauce del rio Elortz"
+    },
+    {
+        "id": 4,
+        "ubicacion": "Monreal",
+        "fecha": "19-10-2023",
+        "cantidadRecogida-Kg": 140,
+        "participantes": 50,
+        "descripcion": "Monte Higa de monreal"
+    },
+    {
+        "id": 5,
+        "ubicacion": "Sarriguren",
+        "fecha": "02-12-2023",
+        "cantidadRecogida-Kg": 97,
+        "participantes": 50,
+        "descripcion": "Monte Malkaitz y Tangorri"
+    },
+    {
+        "id": 6,
+        "ubicacion": "Mañeru",
+        "fecha": "11-02-2024",
+        "cantidadRecogida-Kg": 150,
+        "participantes": 26,
+        "descripcion": "Meandro de Ribalta"
+    },
+    {
+        "id": 7,
+        "ubicacion": "Iruña",
+        "fecha": "16-11-2024",
+        "cantidadRecogida-Kg": 200,
+        "participantes": 44,
+        "descripcion": "Cauce del rio Sadar"
+    }
+]
