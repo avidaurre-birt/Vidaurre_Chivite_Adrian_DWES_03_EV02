@@ -1,0 +1,473 @@
+{
+	"info": {
+		"_postman_id": "d1ebcb9d-8f5d-4a3d-9352-98a99f9770cc",
+		"name": "ReforestAccion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17872134",
+		"_collection_link": "https://planetary-comet-174587.postman.co/workspace/API_Birt~2bdab8ab-9cf5-4d1a-8ce6-fc2dd50f1a07/collection/17872134-d1ebcb9d-8f5d-4a3d-9352-98a99f9770cc?action=share&source=collection_link&creator=17872134"
+	},
+	"item": [
+		{
+			"name": "plantacion/get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\":11,\r\n  \"fecha\":\"05-06-2024\",\r\n  \"distancia_km\":10,\r\n  \"tiempo_min\":75,\r\n  \"desnivel_positivo_m\":600,\r\n  \"ritmo_min_km\":\"00:07:30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/plantacion/get",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"plantacion",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "limpieza/get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\":11,\r\n  \"fecha\":\"05-06-2024\",\r\n  \"distancia_km\":10,\r\n  \"tiempo_min\":75,\r\n  \"desnivel_positivo_m\":600,\r\n  \"ritmo_min_km\":\"00:07:30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/plantacion/get",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"plantacion",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "charla/get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\":11,\r\n  \"fecha\":\"05-06-2024\",\r\n  \"distancia_km\":10,\r\n  \"tiempo_min\":75,\r\n  \"desnivel_positivo_m\":600,\r\n  \"ritmo_min_km\":\"00:07:30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/charla/get",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"charla",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "plantacion/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"ubicacion\":\"Zizur\",\r\n  \"fecha\": \"05-12-2024\",\r\n  \"arboles\":{\r\n    \"especie\": \"Olmo\",\r\n    \"cantidad\": 120\r\n  },\r\n  \"participantes\":60\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/plantacion/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"plantacion",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "limpieza/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"ubicacion\": \"Zizur\",\r\n        \"fecha\": \"19-10-2024\",\r\n        \"cantidadRecogida\": 220,\r\n        \"participantes\": 75,\r\n        \"descripcion\": \"Monte Perdon\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/limpieza/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"limpieza",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "charla/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"titulo\": \"Informacion sobre especies invasoras\",\r\n  \"fecha\": \"05-05-2024\",\r\n  \"ubicacion\": \"Burlada\",\r\n  \"duracion\": 90,\r\n  \"descripcion\": \"Proyecto semana ambiental\",\r\n  \"publico\": \"General\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/charla/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"charla",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "plantacion/update/8",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"arboles\":[{\r\n    \"especie\": \"Olmo\",\r\n    \"cantidad\": 200\r\n  },{\r\n    \"especie\": \"Haya\",\r\n    \"cantidad\": 130\r\n  }],\r\n  \"participantes\":60\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/plantacion/update/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"plantacion",
+						"update",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "limpieza/update/8",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"ubicacion\": \"Zariquiegui\",\r\n        \"cantidadRecogida\": 250,\r\n        \"participantes\": 62\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/limpieza/update/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"limpieza",
+						"update",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "charla/update/8",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"titulo\": \"Informacion sobre especies invasoras\",\r\n  \"fecha\": \"10-05-2024\",\r\n  \"ubicacion\": \"Badostain\",\r\n  \"duracion\": 120,\r\n  \"descripcion\": \"Proyecto semana ambiental\",\r\n  \"publico\": \"General\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/charla/update/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"charla",
+						"update",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "plantacion/delete/8",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/plantacion/delete/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"plantacion",
+						"delete",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "limpieza/delete/8",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/limpieza/delete/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"limpieza",
+						"delete",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "charla/delete/8",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/charla/delete/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"charla",
+						"delete",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/plantacion/getById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/plantacion/get/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"plantacion",
+						"get",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "limpieza/getById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/limpieza/get/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"limpieza",
+						"get",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "charla/getById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/DWES/UD03/TE/public/charla/get/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"DWES",
+						"UD03",
+						"TE",
+						"public",
+						"charla",
+						"get",
+						"7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
